@@ -1,12 +1,12 @@
 import Image from "next/image";
-
+import Navbar from "./components/navbar/page";
 export default function Home() {
   return (
-    <div className="bg-slate-500 text-black w-[100vw] h-[100vh]">
+    <div className=" bg-textDark w-[100vw] h-[100vh]">
+          
+               <Navbar></Navbar>
 
-
-
-      lauda ka collection
+         
 
 
     </div>

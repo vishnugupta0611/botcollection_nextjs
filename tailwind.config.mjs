@@ -7,9 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+    
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#ffffff",
+        accent: "#62a7ff",
+        textDark: "#333333",
       },
     },
   },
